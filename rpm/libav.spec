@@ -37,7 +37,6 @@ Libav is a complete, cross-platform solution to record, convert and stream audio
     --enable-pic \
     --disable-encoder=flac \
     --disable-decoder=cavs \
-    --disable-protocols \
     --disable-devices \
     --disable-network \
     --disable-hwaccels \
