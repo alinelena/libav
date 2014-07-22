@@ -1,5 +1,5 @@
 Name:           libav1
-Version:        9.12
+Version:        10.2
 Release:        0.0
 Summary:        Open source audio and video processing tools
 Group:          Productivity/Multimedia/Video/Editors and Convertors
