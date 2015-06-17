@@ -47,7 +47,8 @@ Libav is a complete, cross-platform solution to record, convert and stream audio
     --enable-gpl \
     --enable-sram \
     --enable-shared \
-    --disable-static
+    --disable-static \
+    --disable-yasm
 
 %build
 make %{?jobs:-j%jobs}
