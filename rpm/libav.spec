@@ -30,6 +30,7 @@ Libav is a complete, cross-platform solution to record, convert and stream audio
 %prep
 %setup -q -n %{name}-%{version}/libav
 
+%build
 ./configure --prefix=/usr \
     --disable-avserver \
     --disable-avplay \
@@ -50,7 +51,6 @@ Libav is a complete, cross-platform solution to record, convert and stream audio
     --disable-static \
     --disable-yasm
 
-%build
 make %{?jobs:-j%jobs}
 
 %install
